@@ -4,8 +4,8 @@
 */
 
 interface KeyValuePair<K, V> {
-  key;
-  value;
+  key: K;
+  value: V;
 }
 //* Example
 const strNum: KeyValuePair< string, number> = {key: 'cdvbrtr', value: 12}
